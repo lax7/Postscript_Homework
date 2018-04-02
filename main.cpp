@@ -6,6 +6,7 @@
 using namespace std;
 int main() {
 
+
     Postscript p("test.ps");
     p.line(0,0, 300,400);  // 0 0 moveto 300 400 lineto stroke
     int r = 255,g = 0, b = 0;
