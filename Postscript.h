@@ -13,6 +13,8 @@ class Postscript{
 private:
      char *file;
 public:
+    //Will need to include variable name:
+    // ex) line (int x1,int y1, int x2, int y2)
     Postscript( char *);
     void line (int, int, int, int);
     void setColor(int, int, int);
